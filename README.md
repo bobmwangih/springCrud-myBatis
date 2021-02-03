@@ -14,7 +14,7 @@ This web application demonstrates the Integration of Spring MVC and Mybatis conn
 
 **1. Clone the application**
 
-`git clone https://github.com/bobmwangih/springCrud-mybatis-mysql.git`
+`git clone https://github.com/bobmwangih/springCrud-myBatis.git`
 
 **2. Create Mysql database**
 
