@@ -22,19 +22,24 @@ This web application demonstrates the Integration of Spring MVC and Mybatis conn
 
 **3. Run the following sql command to initialize your table in the db**
 
-` USE springMVCmybatis;
+` 	
 
-CREATE TABLE employee (
+	USE springMVCmybatis;
+
+	CREATE TABLE employee (
+	
 	id int not null primary key auto_increment,
+ 	
+    	name varchar(50) not null,
  
-    name varchar(50) not null,
+    	email varchar(50) not null,
  
-    email varchar(50) not null,
- 
-    gender varchar(50) not null,
+    	gender varchar(50) not null,
   
-    address varchar(50) not null
-); `
+    	address varchar(50) not null
+	); 
+
+`
 
 **4. Change mysql username and password as per your installation**
 
